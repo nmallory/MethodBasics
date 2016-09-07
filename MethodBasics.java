@@ -42,17 +42,17 @@ public class MethodBasics {
 	}
 	
 }
-	//Method that calculates area of room 
+	//Calculates area of room 
 	public static float roomArea(float length, float width){
 		return length * width;
 	}
 	
-	//Method that calculates perimeter of room
+	//Calculates perimeter of room
 	public static float roomPerimeter(float length, float width){
 		return 2 * (length + width);
 	}
 	
-	//Method that calculates volume of room
+	//Calculates volume of room
 	public static float roomVolume(float length, float width, float height){
 		return length * height * width;
 	}
